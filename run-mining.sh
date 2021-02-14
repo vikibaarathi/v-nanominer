@@ -1,7 +1,7 @@
 #!/bin/bash
 i=0;
 algo="";
-configFile="config_test.ini"
+configFile="config_v.ini"
 > $configFile;
 while [[ "$#" -gt 0 ]]; do
   if echo "$1" | grep -q "algo"; then
@@ -21,4 +21,4 @@ while [[ "$#" -gt 0 ]]; do
   fi
   i=$((i+1));
 shift; done
-
+./nanominer $configFile

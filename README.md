@@ -7,4 +7,6 @@
 
 
 EC2 Instance User Data
-./user-data-test.sh -algo ethash -rigName V-02 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
+
+chmod +x run-mining.sh
+./run-mining.sh -algo ethash -rigName V-03 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
