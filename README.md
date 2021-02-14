@@ -10,3 +10,11 @@ EC2 Instance User Data
 
 chmod +x run-mining.sh
 ./run-mining.sh -algo ethash -rigName V-03 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
+
+
+
+#!/bin/bash
+cd v-nanominer
+git pull
+chmod +x run-mining.sh
+./run-mining.sh -algo ethash -rigName V-09-x -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
