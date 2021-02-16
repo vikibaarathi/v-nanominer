@@ -31,6 +31,9 @@ chmod +x run-mining.sh
 * ./run-mining.sh -algo ethash -rigName V-11 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
 
 
-ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-137-192-32.us-east-2.compute.amazonaws.com
+ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-17-16-128.us-east-2.compute.amazonaws.com
+
 
 ssh -i "oregon-v-mining.pem" ubuntu@ec2-34-221-56-183.us-west-2.compute.amazonaws.com
+
+ssh -i "v-mining-key-pair.pem" ubuntu@ec2-34-236-37-9.compute-1.amazonaws.com
