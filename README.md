@@ -35,6 +35,8 @@ ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-17-77-186.us-east-2.compute.amazonaws.co
 ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-133-158-172.us-east-2.compute.amazonaws.com
 ssh -i "v-mining-ohio.pem" ubuntu@ec2-18-191-169-100.us-east-2.compute.amazonaws.com
 
+ssh -i "v-mining-ohio.pem" ubuntu@ec2-13-59-230-181.us-east-2.compute.amazonaws.com
+
 screen -dm bash -c "echo hello; exec sh";
 
 /home/ubuntu/v-nanominer/v-miner-ip.py
