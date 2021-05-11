@@ -19,23 +19,16 @@ git pull
 chmod +x run-mining.sh
 ./run-mining.sh -algo ethash -rigName V-09-x -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
 
+METAMASK WALLET
 * cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-02 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-03 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-04 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-05 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-06 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-07 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-08 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-09 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-10 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
-* cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-100 -email viki.baarathi@gmail.com -wallet 0xccc278Ac87025DC64156D8814711aB997C3656DC
 
 
-ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-17-77-186.us-east-2.compute.amazonaws.com
-ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-133-158-172.us-east-2.compute.amazonaws.com
-ssh -i "v-mining-ohio.pem" ubuntu@ec2-18-191-169-100.us-east-2.compute.amazonaws.com
+LUNO WALLET
+cd v-nanominer && ./run-mining.sh -algo ethash -rigName V-02 -email viki.baarathi@gmail.com -wallet 0xA5275A8Fb0698910b6Ab5280cE27a83dc7CDdac0
 
-ssh -i "v-mining-ohio.pem" ubuntu@ec2-13-59-230-181.us-east-2.compute.amazonaws.com
+ssh -i "lombongaccount.pem" ubuntu@ec2-3-21-100-53.us-east-2.compute.amazonaws.com
+ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-138-134-213.us-east-2.compute.amazonaws.com
+ssh -i "v-mining-ohio.pem" ubuntu@ec2-3-138-134-213.us-east-2.compute.amazonaws.com
 
 screen -dm bash -c "echo hello; exec sh";
 
